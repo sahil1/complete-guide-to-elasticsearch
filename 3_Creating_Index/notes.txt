@@ -1,0 +1,31 @@
+PUT /product?pretty
+
+POST /product/_doc
+{
+ "name": "Processing Events with Logstash",
+ "instructor": {
+    "firstName": "Sahil",
+    "lastName": "M"
+ }
+}
+
+PUT /product/_doc/1
+{
+ "name": "Processing Events with Logstash",
+ "instructor": {
+    "firstName": "Sahil",
+    "lastName": "M"
+ }
+}
+
+GET /product/_doc/1
+
+PUT /product/_doc/1
+{
+ "name": "Processing Events with Logstash",
+ "instructor": {
+    "firstName": "Sahil",
+    "lastName": "M"
+ },
+ "price": 201
+}

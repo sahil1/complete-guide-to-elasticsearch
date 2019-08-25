@@ -1,4 +1,4 @@
-# Metric aggregations
+ # Metric aggregations
 
 ## Calculating statistics with `sum`, `avg`, `min`, and `max` aggregations
 

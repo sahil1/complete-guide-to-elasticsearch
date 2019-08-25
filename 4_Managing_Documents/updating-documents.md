@@ -9,6 +9,13 @@ POST /product/_doc/1/_update
 }
 ```
 
+```
+POST /product/_update/1/
+{
+  "doc": { "price": 96, "tags": [ "Elasticsearch" ] }
+}
+```
+
 ## Retrieving the updated document
 
 ```
